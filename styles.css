@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#banner{
+    padding-left: 300px;
+    padding-top: 100px;
+}
+.banner2{
+    position: absolute;
+    left: 28%;
+    top: 15%;
+}
+.box{
+    border: 1px solid #b3babf;
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+}
+.insta{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 3dunicode;
+}
+@font-face{
+    font-family: 3dunicode;
+    src: url(./fonts/3d_unicode.ttf);
+}
+.forinput{
+    width: 250px;
+    height: 35px;
+    padding-left: 7px;
+    border: 1px solid #b3babf
+}
+.input{
+    margin-top: 40px;
+    text-align: center;
+    color: #b3babf;
+}
+.input1{
+    margin-top: 10px;
+}
+button{
+    width: 73%;
+    height: 33px;
+    border-radius: 10px;
+    background-color: #4db5f9;
+    color: white;
+    border: 0;
+    font-size: 15px;
+    cursor: pointer;;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.forbutton{
+    text-align: center;
+    padding-top: 15px;
+}
+h2{
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(143,144,146);
+}
+h2::before{
+    content: '';
+    height: 1px;
+    width: 80px;
+    background-color: #9b9aae;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: -3;
+    padding-left: 10px;
+    margin-right: 50px;
+}
+h2::after{
+    content: '';
+    height: 1px;
+    width: 40px;
+    background-color: #9b9aae;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -2;
+    padding-left: 50px;
+    margin-left: 50px;
+}
+.log{
+    margin-top: 15px;
+}
+.facebook{
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;;
+}
+.fa-facebook-square{
+    color: #385185;
+    font-size: 20px;
+}
+h3{
+    color: #385185;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 8px;
+    cursor: pointer;;
+}
+#forgot{
+    color: #174b79;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    cursor: pointer;
+}
+#newbanner{
+    border: 1px solid #b3babf;
+    width: 350px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+}
+.forA{
+    color: #85d5fc;
+    cursor: pointer;
+}
+.nthchild{
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    color: rgba(0, 0, 0, 0.692);
+}
+.h5{
+    position: absolute;
+    left: 59%;
+    top: 78%;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.904);
+    font-size: 17px;
+    
+}
+._aa5q{
+    position: absolute;
+    left: 53%;
+    top: 80%;
+    width: 150px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+._aa6q{
+    position: absolute;
+    left: 63.3%;
+    top: 80%;
+    width: 122px;
+    margin-top: 40px;
+    cursor: pointer;
+}
